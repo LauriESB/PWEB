@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.menu-lateral {
+    width: 100px;
+    height: 100%;
+    background-color: rgb(233, 233, 240);
+    padding: 40px 0 40px 1%; 
+}
+
+.btn-expandir, i {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor:pointer
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+.item-menu {
+    padding: 15px;
+    margin-bottom: 50px;
+}

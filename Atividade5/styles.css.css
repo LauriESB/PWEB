@@ -1,0 +1,88 @@
+body {
+    margin: 0 auto;
+}
+
+main{
+    background-image: url(images/ben-neale-zpxKdH_xNSI-unsplash.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#square {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 9px;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    #square {
+        background-color: #0242ba;
+    }
+
+    h2::before {
+        content: "Blue";
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #square {
+        background-color: rgb(226, 12, 162);
+    }
+    h2::before {
+        content: "Pink";
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #square {
+        background-color: rgb(22, 221, 247);
+    }
+    h2::before {
+        content: "Cyan Blue";
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1080px) {
+    #square {
+        background-color: rgb(0, 0, 0);
+    }
+    h2::before {
+        content: "Black";
+    }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1366px) {
+    #square {
+        background-color: rgb(156, 134, 218);
+    }
+    h2::before {
+        content: "Lilac";
+    }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+    #square {
+        background-color: rgb(89, 0, 255);  
+    }
+    h2::before {
+        content: "Purple";
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    #square {
+        background-color: rgb(11, 255, 113);
+    }
+    h2::before {
+        content: "Green";
+    }
+}
